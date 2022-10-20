@@ -1,0 +1,10 @@
+- Finish edge detection (canny, and make quick research, how to merge two kernels)
+- implement Harris/Moravec/FAST/Scale invariant/blob/hessian corner detector
+- implement SIFT detector
+- implement SIFT descriptor
+- how to perform feature filtering?
+- What is RANSAC?
+
+
+- Store links & materials from ucu slack
+- Watch 1-4 lectures from UCU
