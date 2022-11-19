@@ -22,3 +22,4 @@ imageio-ffmpeg==0.4.3
 ninja==1.10.2
 graphviz==0.20.1
 kornia==0.6.7
+gdown==4.5.3

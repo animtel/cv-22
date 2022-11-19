@@ -1,3 +1,6 @@
+data/
+drone_vehicle_footage_dataset_public/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
