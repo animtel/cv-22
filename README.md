@@ -3,11 +3,19 @@
 ### Build & Run docker
 
 - `docker build -t cv-22 .` - to build docker
-- `docker run -d -it --init --gpus=all --ipc=host --publish="8888:8888" --volume="C:\Users\Daniel\working\cv-22:/app" cv-22 bash`
+- ```docker run -d -it --init \
+--gpus=all \
+--ipc=host \
+--volume="$PWD:/app" \
+--volume="/home/:/hhome" \
+--volume="/usr/local/cuda:/usr/local/cuda" \
+--publish="3333:3333" \
+--publish="3334:3334" \
+cv-22 bash```
 
 ### Run jupyter server
 
-- `jupyter lab --no-browser --ip 0.0.0.0 --port 8888 --allow-root`
+- `jupyter lab --no-browser --ip 0.0.0.0 --port 3333 --allow-root`
 
 
 ### Useful materials:
