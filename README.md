@@ -3,7 +3,8 @@
 ### Build & Run docker
 
 - `docker build -t cv-22 .` - to build docker
-- ```docker run -d -it --init \
+- ```
+docker run -d -it --init \
 --gpus=all \
 --ipc=host \
 --volume="$PWD:/app" \
@@ -11,7 +12,8 @@
 --volume="/usr/local/cuda:/usr/local/cuda" \
 --publish="3333:3333" \
 --publish="3334:3334" \
-cv-22 bash```
+cv-22 bash
+```
 
 ### Run jupyter server
 
